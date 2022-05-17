@@ -18,6 +18,29 @@
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
 
+    <h1>Reproduzindo áudios</h1>
+
+    <p>
+        Vamos aprender a reproduzir áudios em HTML5
+    </p>
+    <!--
+    <p>
+        Método mais limitado
+    </p>
+
+    <audio src="midia/Tidal Wave - Silent Partner.mp3" controls ></audio>
+    MP3 WAV OGG  
+     -->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Tidal Wave - Silent Partner.mp3" type="audio/mpeg">
+        <source src="midia/Tidal Wave - Silent Partner.ogg" type="audio/ogg">
+        <source src="midia/Tidal Wave - Silent Partner.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio, <a href="midia/Tidal Wave - Silent Partner.mp3"><strong>Clique aqui</strong></a>para baixar o arquivo </p>
+        
+        
+    </audio>
+
     
 </body>
 </html>
