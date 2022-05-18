@@ -1,0 +1,12 @@
+.cinza{
+    background-color: rgba(128, 128, 128, 0.705);
+    color: rgb(44, 44, 44);
+}
+.verde{
+    background-color: rgb(148, 199, 148);
+    color: rgb(0, 65, 0);
+}
+.vermelho{
+    background-color: rgb(250, 138, 138);
+    color: rgb(143, 0, 0);
+}
