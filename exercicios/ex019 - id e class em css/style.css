@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    em HTML id = #
+    em html class = .
+
+
+*/
+
+body{
+    background-color: #d6fde9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2{
+    color: #3c805e;
+}
+.basico{
+    color: green;
+    
+
+}
+.intermediario{
+    color: rgb(128, 126, 0);
+
+
+}
+.avancado{
+
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+
+}
+.destaque{
+    background-color: yellowgreen;
+}
