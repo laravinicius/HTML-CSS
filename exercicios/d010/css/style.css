@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('../fonts/idroid.otf') format('truetype');
+    
+}
+body{
+    margin: 0%;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to bottom,#2fa866,#1a5c37,#063d1e);
+}
+header > h1{
+    
+    text-align: center;
+}
+nav{
+    display: block;
+}
+footer{
+    color: white;
+    background-color: #063D1E;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+footer > a:hover{
+    text-decoration: underline;
+    color:#83E1AD;
+
+}
