@@ -3,12 +3,12 @@
 ## Listagem de exercícios já feitos no curso:
 
 - [Ex 001 - Olá Mundo](https://laravinicius.github.io/HTML-CSS/exercicios/ex001%20-%20ol%C3%A1,%20mundo!/index.html)
-- [Ex 002 - Parágrafos e quebras de linha](/exercicios/ex002%20-%20par%C3%A1grafos%20e%20quebras%20de%20linha/index.html)
-- [Ex 003 - Imagens](/exercicios/ex003%20-%20inserindo%20imagens/index.html)
-- [Ex 004 - Favicon](/exercicios/ex004%20-%20favicon/index.html)
-- []()
-- []()
-- []()
+- [Ex 002 - Parágrafos e quebras de linha](https://laravinicius.github.io/HTML-CSS/exercicios/exercicios/ex002%20-%20par%C3%A1grafos%20e%20quebras%20de%20linha/index.html)
+- [Ex 003 - Imagens](https://laravinicius.github.io/HTML-CSS/exercicios/exercicios/ex003%20-%20inserindo%20imagens/index.html)
+- [Ex 004 - Favicon](https://laravinicius.github.io/HTML-CSS/exercicios/exercicios/ex004%20-%20favicon/index.html)
+- [Ex 006 - Parágrafos](https://laravinicius.github.io/HTML-CSS/exercicios/exercicios/ex006%20-%20paragrafos/index.html)
+- [Ex 007 - Formatações antigas do HTML4](https://laravinicius.github.io/HTML-CSS/exercicios/exercicios/ex007%20-%20formata%C3%A7%C3%B5es%20antigas%20x%20novas/html4.html)
+- [Ex 007 - ]()
 - []()
 - []()
 - []()
