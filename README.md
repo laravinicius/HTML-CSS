@@ -18,8 +18,7 @@
 - [Ex 013 - Estilos1](https://laravinicius.github.io/HTML-CSS/exercicios/ex013%20-%20estilos/index.html)
 - [Ex 014 - Estilos2](https://laravinicius.github.io/HTML-CSS/exercicios/ex014%20-%20estilos/index.html)
 - [Ex 015 - Estilos em 2 páginas - pt1](https://laravinicius.github.io/HTML-CSS/exercicios/ex015%20-%20estilos%20em%202%20p%C3%A1ginas/index.html)
-- [Ex 015 - Estilos em 2 páginas - pt2](https://laravinicius.github.io/HTML-CSS/exercicios/ex015%20-%20estilos%20em%202%20p%C3%A1ginas/pagina2.html)
-- [Ex 016 - Cores e gradientes](https://laravinicius.github.io/HTML-CSS/exercicios/ex016%20-%20cores%20e%20gradientes)
+- [Ex 016 - Cores e gradientes](https://laravinicius.github.io/HTML-CSS/exercicios/ex016%20-%20cores%20e%20gradientes/cor1.html)
 - []()
 - []()
 - []()
@@ -29,4 +28,4 @@
 - []()
 - []()
 - []()
-- []()
+- 
