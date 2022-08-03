@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <a href="form001.html">Voltar</a>
+
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iNome">Nome</label>
+                <input type="text" name="nome" id="iNome">
+            </p>
+            <p>
+                <label for="iEmail">Email:</label>
+                <input type="email" name="email" id="iEmail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="iTel">Telefone:</label>
+                <input type="tel" name="tel" id="iTel" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <!-- Estudar sobre patterns: RegEx
+        html 5 telefone patterns
+        -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
