@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <a href="form001.html">Voltar</a>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="iMas" value="M" checked> <label for="iMas">Masculino</label> <br> 
+            <!-- Para alterar entre os 2 radios, precisa colocar o mesmo name neles-->
+            <input type="radio" name="sexo" id="iFem" value="F" > <label for="iFem">Feminio</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="iFut"> <label for="iFut">Futebol</label> <br>
+            <input type="checkbox" name="bas" id="iBas"> <label for="iBas">Basquete</label> <br>
+            <input type="checkbox" name="vol" id="iVol"> <label for="iVol">Vôlei</label> <br>
+            <input type="checkbox" name="nat" id="iNat"> <label for="iNat">Natação</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
