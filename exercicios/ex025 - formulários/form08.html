@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <a href="form001.html">Voltar</a>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="" method="get" autocomplete="on">
+
+        <p>
+            <label for="idN1">Número 1:</label>
+            <input type="number" name="n1" id="idN1" min="0" max="50" required oninput="soma()">
+        </p>
+        <p>
+            <label for="idN2">Número 2:</label>
+            <input type="number" name="n2" id="idN2" min="0" max="50" required oninput="soma()">
+        </p>
+
+        <p>
+            <label for="idSoma">Soma:</label>
+            <output id="idSoma"></output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function soma(){
+            let n1 = document.getElementById(`idN1`);
+            let n2 = document.getElementById(`idN2`);
+            let soma = document.getElementById(`idSoma`);
+
+            soma.innerHTML = Number(n1.value) + Number(n2.value);
+            
+
+        }
+        
+    </script>
+    
+</body>
+</html>

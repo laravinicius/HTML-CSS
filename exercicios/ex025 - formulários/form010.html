@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <a href="form001.html">Voltar</a>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get">
+
+        <p>
+            <label for="idAno">Em qual ano voce nasceu?</label>
+            <input type="number" name="ano" id="idAno" min="1900" max="2022" oninput="idade()">
+        </p>
+        <p>
+            <label for="resIdade">Sua idade é de:</label>
+            <output id="resIdade"></output>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function idade() {
+            let ano = document.getElementById(`idAno`);
+            let res = document.getElementById(`resIdade`);
+            const anoAtual = new Date().getFullYear();
+            let idade = anoAtual - Number(ano.value);
+
+            res.innerHTML = idade;
+        }
+    </script>
+    
+    
+</body>
+</html>
