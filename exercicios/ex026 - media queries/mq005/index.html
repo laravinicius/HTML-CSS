@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="idMenu">
+            <ul>
+                <li><a href="#">Op1</a></li>
+                <li><a href="#">Op2</a></li>
+                <li><a href="#">Op3</a></li>
+                <li><a href="#">Op4</a></li>
+                <li><a href="#">Op5</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando media Queries</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa excepturi quidem molestias quia. Quis rerum animi unde commodi a deleniti, fuga optio sed eveniet quam qui officia ipsam veritatis asperiores!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laboriosam. Dolorum deserunt debitis possimus omnis voluptates, quidem est fuga enim repellat laboriosam? Totam, et cum. Nemo debitis deleniti voluptas magni?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa excepturi quidem molestias quia. Quis rerum animi unde commodi a deleniti, fuga optio sed eveniet quam qui officia ipsam veritatis asperiores!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laboriosam. Dolorum deserunt debitis possimus omnis voluptates, quidem est fuga enim repellat laboriosam? Totam, et cum. Nemo debitis deleniti voluptas magni?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa excepturi quidem molestias quia. Quis rerum animi unde commodi a deleniti, fuga optio sed eveniet quam qui officia ipsam veritatis asperiores!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laboriosam. Dolorum deserunt debitis possimus omnis voluptates, quidem est fuga enim repellat laboriosam? Totam, et cum. Nemo debitis deleniti voluptas magni?
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if (idMenu.style.display == `block`){
+                idMenu.style.display = `none`;
+            } else {
+                idMenu.style.display = `block`;
+            }
+        }
+    </script>
+    
+</body>
+</html>
